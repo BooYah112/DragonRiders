@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Dragon Riders </title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="assets/images/favicon.ico" />
+
+		<!-- Css -->
+		<link rel="stylesheet" href="css/w3.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/menu.css"/>
+		<link rel="stylesheet" href="css/mainStyle.css"/>
+
+		<script>if (localStorage.getItem('debug')==='true'){
+			var link = document.createElement( "link" );
+			link.href = 'css/debug.css';
+			link.rel = "stylesheet";
+			document.getElementsByTagName( "head" )[0].appendChild( link );
+		} </script>
+	</head>
+
+	<body>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- <div id=leftcontent>
+			<div 	class="fb-page"	data-href="https://www.facebook.com/Dragon-Riders-214483898617259"	data-tabs="timeline"	data-height="1000"	data-small-header="false"	data-adapt-container-width="true"	data-hide-cover="false"	data-show-facepile="true"></div>
+		</div> -->
+
+		<div id='container_all'>
+			<header class="w3-container w3-row-padding">
+				<a id='home' 		href="javascript:onClickItemMenu('home')"> 
+					<img class="w3-col m5 l5" src="assets/images/Banniere_02.png" alt="Bannière Dragon Riders">
+				</a>
+				<!--<img class="w3-third hide-on-small-screen" src="assets/images/logo_ffrs.jpg" alt="Logo FFRS" >-->
+				<img class="w3-col m4 l4 hide-on-small-screen w3-center" src="assets/images/LogoRollerFreestyle_Quadri.png" alt="Logo FFRS"  style="margin-top:2%">
+				<div class="w3-col m3 l3 hide-on-small-screen" style="margin-top:3%">
+					<img src="assets/images/logo_wsx.jpg" alt="Logo WSX">
+					<img src="assets/images/logo_wssa.jpg" alt="Logo WSSA">
+
+					<!--
+					-->
+				</div>
+			</header>
+
+			<div id='menu' class = "w3-container">
+				<hr>
+					<div class="w3-topnav w3-large strong w3-theme">
+						<a id='home' 		href="javascript:onClickItemMenu('home')"><i class="fa fa-home w3-xlarge"></i>Home</a>
+						<a id='initiation' 	href="javascript:onClickItemMenu('initiation')">Ecole de roller</a>
+						<a id='freestyle' 	href="javascript:onClickItemMenu('freestyle')">Roller Freestyle</a>
+						<a id='soccer' 		href="javascript:onClickItemMenu('soccer')">Roller Soccer</a>
+						<a id='hockey' 		href="javascript:onClickItemMenu('hockey')">Roller Hockey</a>
+						<a id='multimedia' 	href="javascript:onClickItemMenu('multimedia')">Photos/Vidéos</a>
+					</div>
+				<hr>
+			</div>
+
+			<div id=mainpage class="w3-container"></div>
+
+			<footer>
+				<p>Copyright Dragon Riders - Tous droits réservés<br />
+			</footer>
+
+			<!-- libs -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+			<!-- <script src="js/libs/jquery-2.1.4.js"></script>  -->
+			<script src="assets/texts/texts.js"></script>
+			<script src="js/menus.js"></script>
+		</div>
+
+	</body>
+</html>

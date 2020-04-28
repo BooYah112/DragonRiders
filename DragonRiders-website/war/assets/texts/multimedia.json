@@ -1,0 +1,13 @@
+
+
+{
+  "owl" : [
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel01.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel02.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel03.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel04.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel05.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel06.jpg' alt='Carousel Image'></span>"},
+      {"item" : "<span class='item'><img src='assets/images/photos/carousel/carousel07.jpg' alt='Carousel Image'></span>"}
+  ]
+}

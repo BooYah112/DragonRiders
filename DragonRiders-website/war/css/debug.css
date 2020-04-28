@@ -1,0 +1,50 @@
+
+img {}
+
+h1{}
+
+h2{}
+
+h3{}
+
+p{}
+
+pre{}
+
+section{
+	border: 1px solid purple;
+  background-color: linen;
+}
+
+.multicolumn{
+  border: 1px solid purple;
+}
+
+.three_columns{}
+
+.two_columns{}
+
+#container_all{}
+
+#mainpage{
+	border: 5px solid pink;
+}
+
+#maincontent {}
+
+#leftcontent {}
+
+#container_all{}
+
+#photos{}
+
+.contact{
+    border: 1px solid aqua;
+
+}
+#contact{
+    border: 1px red solid;
+}
+
+.fb_iframe_widget span{}
+.fb_iframe_widget iframe{}

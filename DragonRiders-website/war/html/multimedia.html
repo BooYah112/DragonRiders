@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" href="js/libs/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="js/libs/owl-carousel/owl.theme.css">
+		<script src="js/libs/owl-carousel/owl.carousel.js"></script>
+	</head>
+
+	<body>
+
+		<div>
+			<section id=photos>
+				<div id=photos_title></div>
+				<div id="carousel_photo"></div>
+			</section>
+
+			<section id=videos>
+				<div id=videos_title></div>
+				<div id="carousel_video" class="w3-row-padding"></div>
+			</section>
+		</div>
+
+		<script>
+			$(document).ready(function() {
+	  		$("#carousel_photo").owlCarousel({
+							jsonPath: "assets/texts/multimedia.json",
+							items:3
+				      //autoPlay: 1000, //Set AutoPlay to 3 seconds
+						});
+			});
+		</script>
+
+	</body>
+</html>
